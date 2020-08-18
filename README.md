@@ -58,7 +58,7 @@ To get started I want this to be an interactive excercise where you can referenc
 
 <hr>
 
-![Your Image Should be here](/Images/Insert_the_CTP_Logo.png)
+![Your Image Should be here](/Images/CTP_Logo.jpg)
 
 **Note:** You can also embed images like this using URL's instead of the local file location! 
 Insert the URL inside the (Parenthesis) rather than the file location. 
@@ -89,17 +89,17 @@ If your lost go into edit mode to see what I'm referring to!
 
 ### Challenge 7: When inserting Linux or shell commands in a README it is convention to write the line as block element, and place a '$' symbol to let the reader know that this line is a bash terminal/shell command. Make the following line below a block element: 
 
-*(Hint: Try using the 'tab' key to indent the line)*
+    *(Hint: Try using the 'tab' key to indent the line)*
 
 <hr>
 
 - Ubuntu 
 
-$ sudo apt-get update
+    $ sudo apt-get update
 
 - Arch 
 
-$ sudo pacman -Syu
+    $ sudo pacman -Syu
 
 <hr>
 
@@ -111,7 +111,20 @@ $ sudo pacman -Syu
 You may copy and paste the following <a href="https://www.twitchquotes.com/copypastas/3100">ASCII art</a>
 
 ```
-PASTE YOUR ASCII ART HERE! 
+⢀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⣠⣤⣶⣶
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⢰⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣀⣀⣾⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⡏⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿
+⣿⣿⣿⣿⣿⣿⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠁⠀⣿
+⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠙⠿⠿⠿⠻⠿⠿⠟⠿⠛⠉⠀⠀⠀⠀⠀⣸⣿
+⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣴⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⢰⣹⡆⠀⠀⠀⠀⠀⠀⣭⣷⠀⠀⠀⠸⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠈⠉⠀⠀⠤⠄⠀⠀⠀⠉⠁⠀⠀⠀⠀⢿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⢾⣿⣷⠀⠀⠀⠀⡠⠤⢄⠀⠀⠀⠠⣿⣿⣷⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡀⠉⠀⠀⠀⠀⠀⢄⠀⢀⠀⠀⠀⠀⠉⠉⠁⠀⠀⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿
 ```
 
 Read and delete the line below when your editing it is not needed: 
@@ -131,16 +144,20 @@ The back tick symbol looks like this: **`** )*
 
 - Task: List the Directory Structure using the same technique from Challenge 8: 
 
+```
 On small scale repositories like this it's not such a big deal, but as your project grows over time, and as you get more collaborators onboard,
 eventually your code base will baloon and it will take of alot of effort and sanity checking to make sure everyone understands the file structure of your project! 
 Thankfully the community has built tools like <a href="http://manpages.ubuntu.com/manpages/trusty/man1/tree.1.html">tree</a>. Tree is a recursive directory listing program that produces a depth indented listing of files it can be installed on Mac OS X, Windows (WSL), and Linux.
+```
 
 #### How tree works: 
 
 ![Tree.gif](/GIFs/Tree.gif)
 
 
-#### Here is the file structure for this repository make this into a block element so it doesn't look as messy: 
+#### Here is the file structure for this repository make this into a block element so it doesn't look as messy:
+
+```
 .
 ├── Images
 │   ├── CTP_Logo.png
@@ -152,6 +169,7 @@ Thankfully the community has built tools like <a href="http://manpages.ubuntu.co
 |   ├── Challenge_6.gif
 |   
 
+```
 
 <hr>
 
