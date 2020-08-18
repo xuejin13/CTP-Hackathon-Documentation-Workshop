@@ -95,11 +95,11 @@ If your lost go into edit mode to see what I'm referring to!
 
 - Ubuntu 
 
-    $ sudo apt-get update
+        $ sudo apt-get update
 
 - Arch 
 
-    $ sudo pacman -Syu
+        $ sudo pacman -Syu
 
 <hr>
 
